@@ -1,0 +1,158 @@
+:root {
+  --Ver-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish: hsl(303, 10%, 53%);
+  --Light-Grayish: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding-top: 3em;
+  width: 100%;
+  height: 100%;
+  background: url("../images/bg-pattern-top-mobile.svg") no-repeat;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+}
+
+main h1 {
+  padding: 0 2.3em;
+  color: var(--Ver-Dark-Magenta);
+  font-weight: 700;
+}
+
+.main-info {
+  color: var(--Dark-Grayish);
+  font-weight: 500;
+  padding: 1em 2em 0em;
+}
+
+.rated-info {
+  color: var(--Ver-Dark-Magenta);
+  font-weight: 700;
+}
+.rated-info01 {
+  border: none;
+  margin: 1em auto;
+  background-color: var(--Light-Grayish);
+  border-radius: 0.5em;
+  width: 90%;
+  padding: 0.5em;
+}
+
+.rated-info02 {
+  border: none;
+  margin: 1em auto;
+  background-color: var(--Light-Grayish);
+  border-radius: 0.5em;
+  width: 90%;
+  padding: 0.5em;
+}
+.rated-info03 {
+  border: none;
+  margin: 1em auto;
+  background-color: var(--Light-Grayish);
+  border-radius: 0.5em;
+  width: 90%;
+  padding: 0.5em;
+}
+.rated-info p {
+  padding: 0.5em;
+}
+.customer-opinion01 {
+  text-align: left;
+  border: none;
+  margin: 1em auto;
+  background-color: var(--Ver-Dark-Magenta);
+  border-radius: 0.5em;
+  width: 90%;
+  padding: 1.5em 3em 1.5em 2.5em;
+}
+
+.left-text {
+  padding-left: 3.2em;
+  padding-top: 0.2em;
+  color: var(--White);
+  font-weight: 700;
+}
+
+.left-text span {
+  color: var(--Soft-Pink);
+  font-weight: 500;
+}
+
+.customer-opinion02 {
+  text-align: left;
+  border: none;
+  margin: 1em auto;
+  background-color: var(--Ver-Dark-Magenta);
+  border-radius: 0.5em;
+  width: 90%;
+  padding: 1.5em 3em 1.5em 2.5em;
+}
+
+.central-text {
+  padding-top: 1em;
+  color: var(--White);
+  text-align: left;
+}
+.customer-opinion03 {
+  text-align: left;
+  border: none;
+  margin: 1em auto;
+  background-color: var(--Ver-Dark-Magenta);
+  border-radius: 0.5em;
+  width: 90%;
+  padding: 1.5em 3em 1.5em 2.5em;
+}
+
+.customer-opinion01 img {
+  width: 35px;
+  height: 35px;
+  object-fit: fill;
+  border-radius: 50%;
+}
+
+.customer-opinion02 img {
+  width: 35px;
+  height: 35px;
+  object-fit: fill;
+  border-radius: 50%;
+}
+.customer-opinion03 img {
+  width: 35px;
+  height: 35px;
+  object-fit: fill;
+  border-radius: 50%;
+}
+.attribution {
+  display: none;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
