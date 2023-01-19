@@ -243,4 +243,10 @@ main h1 {
     padding: 2em 3.5em;
     line-height: 1.5;
   }
+  .customer-opinion02 {
+    margin-top: 2em;
+  }
+  .customer-opinion03 {
+    margin-top: 3em;
+  }
 }
