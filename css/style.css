@@ -220,7 +220,8 @@ main h1 {
 
   .customer-opinion {
     width: 85%;
-    margin: 1em auto;
+
+    margin: 2em auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
