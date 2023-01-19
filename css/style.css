@@ -28,7 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   background: url("../images/bg-pattern-top-mobile.svg") no-repeat,
-    url("../images/bg-pattern-bottom-mobile.svg") no-repeat;
+    url("../images/bg-pattern-bottom-mobile.svg") top 350px right 80px no-repeat;
 }
 
 main {
