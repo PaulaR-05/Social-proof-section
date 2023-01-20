@@ -160,6 +160,7 @@ main h1 {
 }
 @media only screen and (min-width: 900px) {
   body {
+    max-height: 100vh;
     background: url("../images/bg-pattern-top-desktop.svg") no-repeat,
       url("../images/bg-pattern-bottom-desktop.svg") bottom 200px right -550px no-repeat;
   }
@@ -174,7 +175,7 @@ main h1 {
     max-width: 500px;
   }
   .main-text h1 {
-    margin: 1em 1em 0.5em;
+    margin: 0em 1em 0.2em;
     padding: 0 3em;
   }
   .main-text p {
@@ -184,8 +185,8 @@ main h1 {
   }
   .rated-info {
     max-width: 500px;
-    margin: 0em 3em;
-    padding: 1em 1em;
+    margin: 0em 3em -6em;
+    padding: 0em 1em;
     line-height: 2;
   }
   .rated-info img {
@@ -240,7 +241,6 @@ main h1 {
   }
   .customer-opinion div {
     max-width: 30%;
-    margin-left: -8px;
     padding: 2em 3.5em;
     line-height: 1.5;
   }
