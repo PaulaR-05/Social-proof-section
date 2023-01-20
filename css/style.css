@@ -58,7 +58,7 @@ main h1 {
 }
 .rated-info01 {
   border: none;
-  margin: 1em auto;
+  margin: 0em auto;
   background-color: var(--Light-Grayish);
   border-radius: 0.5em;
   width: 90%;
