@@ -179,6 +179,7 @@ main h1 {
     padding: 0 3em;
   }
   .main-text p {
+    text-align: justify;
     margin: 0em auto;
     padding: 0.5em 1em 0em 8em;
     line-height: 1.5;
